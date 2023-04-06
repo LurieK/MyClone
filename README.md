@@ -28,6 +28,8 @@ https://github.com/LurieK/myclone.git
 Example of a file path:
 file:///C:/Users/YourUsername/path/to/myclone/index.html
 
+Or to view visit: https://luriek.github.io/MyClone/
+
 
 ## Contributing
 

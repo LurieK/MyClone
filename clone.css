@@ -79,7 +79,7 @@ li {
 }
 
 .cellnav-right li#cellapp img{
-    width: 1.35rem;
+    width: 1rem;
 }
 
 .cellnav-right li#cellimg img{
@@ -87,11 +87,11 @@ li {
 }
 
 .cellnav-right li#cellbell img {
-    width: 2rem;
+    width: 1.25rem;
 }
 
 .cellnav-left li#cellmenu img {
-    width: 2rem;
+    width: 1rem;
 }
 
 .nav-left {
@@ -258,7 +258,7 @@ footer {
     }
 }
 
-@media (max-width: 780px) {
+@media screen (min-width: 786px) and (max-width: ) {
     footer {
       flex-direction: column;
       justify-content: center;
@@ -301,8 +301,51 @@ footer {
     .nav-left {
         display: none;
     }
+    .logo img{
+        width: 175px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-   
+    .search {
+        width: 400px;
+        
+    }
+
+  
+
+    .scope {
+        width: 2rem;
+    }
+
+    .cam {
+        width: 2rem;
+    }
+
+    .mic {
+        display:none;
+    }
+
+    button {
+        display:none;
+    }
+
+
+    .bard {
+        margin-bottom: 75%;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+      }
+    .carbon {
+        display: none;
+    }
 }
 
 @media (min-width: 760px ){
@@ -314,5 +357,5 @@ footer {
         display: none;
     }
 
-   
+  
 }

@@ -28,12 +28,14 @@ header {
 }
 
 .cellnav-right {
-    display: none;
+    
 }
 
 .cellnav-left {
-    display: none;
+    
 }
+
+
 
  ul{
     list-style: none;
@@ -67,6 +69,21 @@ li {
     padding-bottom: 2px;
 }
 
+.cellnav-right li#cellapp img{
+    width: 1.35rem;
+}
+
+.cellnav-right li#cellimg img{
+    width: 3rem;
+}
+
+.cellnav-right li#cellbell img {
+    width: 2rem;
+}
+
+.cellnav-left li#cellmenu img {
+    width: 2rem;
+}
 
 .nav-left {
     padding-top: 3px;
@@ -168,7 +185,7 @@ button {
     flex-direction: row;
     justify-content:center;
     align-items: center;
-    margin-bottom: 7%;
+    margin-bottom: 20%;
     
     
 }
@@ -259,7 +276,8 @@ footer {
     }
 
     .search{
-        margin: 20px;
+        margin-left: 20px;
+        
 
     }
   }
@@ -267,6 +285,26 @@ footer {
 
 /* phone */
 
-@media (min-width: 760px ){
+@media (max-width: 760px ){
+    .nav-right {
+        display: none;
+    }
+    
+    .nav-left {
+        display: none;
+    }
 
+   
+}
+
+@media (min-width: 760px ){
+    .cellnav-right {
+        display: none;
+    }
+    
+    .cellnav-left {
+        display: none;
+    }
+
+   
 }

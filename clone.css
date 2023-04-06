@@ -27,13 +27,7 @@ header {
     
 }
 
-.cellnav-right {
-    
-}
 
-.cellnav-left{
-    
-}
 
 .celllink.active {
     color: rgb(0, 110, 255);
@@ -41,9 +35,7 @@ header {
     text-decoration: underline;
 }
 
-.cellnav-left {
-    
-}
+
 
 
  ul{
@@ -272,6 +264,7 @@ footer {
 
     body{
         width: fit-content;
+        overflow-x: hidden;
     }
 
     header {
@@ -288,7 +281,7 @@ footer {
 
     .search {
         width: 400px;
-        margin-left:5px;
+        margin-left:10px;
     }
 
   

@@ -1,0 +1,272 @@
+
+
+body {
+    font-size: 14px;
+    font-family: Roberto,arial,sans-serif;
+    color: #202124;
+    margin:0;
+    overflow-x: hidden;
+    
+}
+a:link,
+a:visited,
+a:hover,
+a:active{
+    cursor: pointer;
+    color: #3c4043bd;
+    text-decoration: none;
+   
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+
+    
+}
+
+.cellnav-right {
+    display: none;
+}
+
+.cellnav-left {
+    display: none;
+}
+
+ ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    margin-top: 1px;
+    align-items: center;
+    
+
+    
+}
+
+
+li {
+    padding-left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-right li#app img {
+    width: 1.35rem;
+    justify-content: center;
+    padding-bottom: 1px;
+}
+
+.nav-right li#img img {
+    width: 3rem;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+
+.nav-left {
+    padding-top: 3px;
+}
+
+body div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    
+    
+
+}
+
+.logo img {
+    width: 300px;
+}
+
+.search {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 500px;
+    width: auto;
+    max-width: 584px;
+    padding: 5px 8px 0 14px;
+    flex-shrink: 0;
+}
+
+.scope {
+    order:-1;
+    margin-right: 10px;
+    opacity: 50%;
+    width: 1.5rem;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.mic {
+    width: 0.8rem;
+    margin-right: 1.25rem;
+}
+
+.cam {
+    width: 1.5rem;
+    margin-right: 1rem;
+
+}
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    flex-direction: row;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 18px;
+    margin: 11px;
+}
+
+.bard {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 7%;
+    
+    
+}
+
+.bard img {
+    width: 1.5rem;
+    margin-right: 6px;
+}
+
+
+footer div{
+    display: block;
+    padding: 15px;
+   
+}
+
+footer {
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10%;
+    color:#3c4043bd;
+    
+    flex-grow: 1;
+    
+
+   
+}
+
+
+.carbon {
+    display:flex;
+    flex-direction: row;
+    order: 0;
+    justify-content: center;
+    color:#3c4043bd;
+    text-decoration: underline;
+    padding-top: 5px;
+    
+}
+
+.carbon img  {
+    width: 1rem;
+    margin-right: 6px;
+    
+}
+
+.right-footer{
+    padding-right:50px;
+}
+
+@media (min-height: 700px){
+    .bard{
+        margin-bottom: 225px;
+    }
+}
+
+@media (max-width: 780px) {
+    footer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      
+    }
+    footer > div {
+      width: 100%;
+    }
+    footer ul {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .carbon {
+      order: -1;
+    }
+
+    .bard{
+        margin-bottom: 85px;
+    }
+
+    .search{
+        margin: 20px;
+
+    }
+  }
+  
+
+/* phone */
+
+@media (min-width: 760px ){
+
+}

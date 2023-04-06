@@ -31,10 +31,19 @@ header {
     
 }
 
-.cellnav-left {
+.cellnav-left{
     
 }
 
+.celllink.active {
+    color: rgb(0, 110, 255);
+    
+    text-decoration: underline;
+}
+
+.cellnav-left {
+    
+}
 
 
  ul{

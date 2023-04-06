@@ -10,15 +10,15 @@
     <nav class="nav-left" id="nav-left">
         <ul>
             <li><a style="color: black" href="https://about.google/?utm_source=google-ID&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
-            <li>Store</li>
+            <li><a style="color: black"href="https://store.google.com/us/">Store</a></li>
         </ul>
     </nav>
     <nav class="nav-right" id="nav-right">
         <ul>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li id="app"><img src="./img/app.png"></li>
-            <li id="img"><img  src="./img/2.png"></li>
+            <li><a style="color: black" href="https://www.google.com/gmail/about/">Gmail</a></li>
+            <li><a style="color: black" href="https://www.google.com/imghp?hl=en&authuser=1&ogbl">Images</a></li>
+            <li id="app"><a href=""><img src="./img/app.png"></a></li>
+            <li id="img"><a href=""><img  src="./img/2.png"></a></li>
         </ul>
     </nav>
 
@@ -26,17 +26,17 @@
 
 <nav class="cellnav-left" id="cellnav-left">
     <ul>
-        <li id="cellmenu"><img src="img/menu_FILL0_wght400_GRAD0_opsz48.png"></li>
-        <li>ALL</li>
-        <li>IMAGES</li>
+        <li id="cellmenu"><a href=""><img src="img/menu_FILL0_wght400_GRAD0_opsz48.png"></a></li>
+        <li><a class='celllink' id="all" href="">ALL</a></li>
+        <li><a class='celllink' id="images" href="">IMAGES</a></li>
     </ul>
 </nav>
 <nav class="cellnav-right" id="cellnav-right">
     <ul>
         
-        <li id="cellbell"><img src="./img/notifications_FILL0_wght400_GRAD0_opsz48.png"></li>
-        <li id="cellapp"><img src="./img/app.png"></li>
-        <li id="cellimg"><img  src="./img/2.png"></li>
+        <li id="cellbell"><a href=""><img src="./img/notifications_FILL0_wght400_GRAD0_opsz48.png"></a></li>
+        <li id="cellapp"><a href=""><img src="./img/app.png"></a></li>
+        <li id="cellimg"><a href=""><img  src="./img/2.png"></a></li>
     </ul>
 </nav>
 
@@ -90,4 +90,20 @@
 
 
 </footer>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+    const links = document.querySelectorAll('.celllink');
+
+    links.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            links.forEach(link => link.classList.remove('active'));
+            e.target.classList.add('active');
+        });
+    });
+});
+
+</script>
 

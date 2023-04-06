@@ -269,6 +269,16 @@ footer {
     .nav-left {
         display: none;
     }
+
+    body{
+        width: fit-content;
+    }
+
+    header {
+        margin-left: 10px; 
+        margin-right: 10px;
+    }
+    
     .logo img{
         width: 175px;
         display: flex;
@@ -278,7 +288,7 @@ footer {
 
     .search {
         width: 400px;
-        
+        margin-left:5px;
     }
 
   

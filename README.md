@@ -21,9 +21,9 @@ This project is a clone of the Google homepage, created to demonstrate my HTML, 
 1. Clone the repository to your local machine:
 https://github.com/LurieK/myclone.git
 
-2. Navigate to the project folder and locate the `clone.html` file.
+2. Navigate to the project folder and locate the `index.html` file.
 
-3. Copy the file path of the `clone.html` file and paste it into the address bar of your preferred web browser, or double-click the file to open it in your default browser.
+3. Copy the file path of the `index.html` file and paste it into the address bar of your preferred web browser, or double-click the file to open it in your default browser.
 
 Example of a file path:
 file:///C:/Users/YourUsername/path/to/myclone/index.html

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>L.Kimmerle Clone Site</title>
     <link rel="stylesheet" type="text/css" href="./clone.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
-
-
 <header>
     <nav class="nav-left" id="nav-left">
         <ul>
-            <li><a style="color: black" href="https://about.google/?utm_source=google-ID&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
-            <li><a style="color: black"href="https://store.google.com/us/">Store</a></li>
+            <li><a style="color: black"
+                    href="https://about.google/?utm_source=google-ID&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+            </li>
+            <li><a style="color: black" href="https://store.google.com/us/">Store</a></li>
         </ul>
     </nav>
     <nav class="nav-right" id="nav-right">
@@ -20,38 +20,38 @@
             <li><a style="color: black" href="https://www.google.com/gmail/about/">Gmail</a></li>
             <li><a style="color: black" href="https://www.google.com/imghp?hl=en&authuser=1&ogbl">Images</a></li>
             <li id="app"><a href=""><img src="./img/app.png"></a></li>
-            <li id="img"><a href=""><img  src="./img/2.png"></a></li>
+            <li id="img"><a href=""><img src="./img/2.png"></a></li>
         </ul>
     </nav>
 
-<!-- responsive header -->
+    <!-- responsive header -->
 
-<nav class="cellnav-left" id="cellnav-left">
-    <ul>
-        <li id="cellmenu"><a href=""><img src="img/menu_FILL0_wght400_GRAD0_opsz48.png"></a></li>
-        <li><a class='celllink' id="all" href="">ALL</a></li>
-        <li><a class='celllink' id="images" href="https://www.google.com/imghp?hl=en&authuser=1&ogbl">IMAGES</a></li>
-    </ul>
-</nav>
-<nav class="cellnav-right" id="cellnav-right">
-    <ul>
-        
-        <li id="cellbell"><a href=""><img src="./img/notifications_FILL0_wght400_GRAD0_opsz48.png"></a></li>
-        <li id="cellapp"><a href=""><img src="./img/app.png"></a></li>
-        <li id="cellimg"><a href=""><img  src="./img/2.png"></a></li>
-    </ul>
-</nav>
+    <nav class="cellnav-left" id="cellnav-left">
+        <ul>
+            <li id="cellmenu"><a href=""><img src="img/menu_FILL0_wght400_GRAD0_opsz48.png"></a></li>
+            <li><a class='celllink' id="all" href="">ALL</a></li>
+            <li><a class='celllink' id="images" href="https://www.google.com/imghp?hl=en&authuser=1&ogbl">IMAGES</a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="cellnav-right" id="cellnav-right">
+        <ul>
 
-
+            <li id="cellbell"><a href=""><img src="./img/notifications_FILL0_wght400_GRAD0_opsz48.png"></a></li>
+            <li id="cellapp"><a href=""><img src="./img/app.png"></a></li>
+            <li id="cellimg"><a href=""><img src="./img/2.png"></a></li>
+        </ul>
+    </nav>
 </header>
+
 <body>
     <div class="logo" id="logo" alt="Google logo">
         <img src="./img/googlelogo_color_272x92dp.png">
     </div>
     <div class="search" id="search" alt="search bar">
         <img class="scope" src="./img/round_search_black_24dp.png">
-        <textarea style="width: 525px; height: 33px;" maxlength="2048" rows="1" cols = "1" autocapitalize="off" autocomplete="off" 
-        autocorrect="off"></textarea>
+        <textarea style="width: 525px; height: 33px;" maxlength="2048" rows="1" cols="1" autocapitalize="off"
+            autocomplete="off" autocorrect="off"></textarea>
         <img class="mic" src="./img/mic.png">
         <img class="cam" src="./img/camera.png">
     </div>
@@ -62,11 +62,12 @@
     </div>
     <div class="bard" id="bard">
         <img src="./img/bard-icon-static-48px.png" target="_blank">
-        <p> <span style="color: red">New! </span><a href ="https://bard.google.com/" style="color:blue" ><u>Try Bard</u></a>, an early AI experiment by Google</p>
+        <p> <span style="color: red">New! </span><a href="https://bard.google.com/" style="color:blue"><u>Try
+                    Bard</u></a>, an early AI experiment by Google</p>
     </div>
 </body>
 <footer>
-   
+
     <div class="left-footer" id="left-footer">
         <ul>
             <li><a href="">Advertising</a></li>
@@ -77,7 +78,8 @@
 
     <div class="carbon" id="carbon">
         <img src="./img/leaf.png">
-        <p> <a href="https://sustainability.google/commitments/#:~:text=Carbon%20Commitments,Google%20Supporting%20partners%20Enabling%20everyone" target="_blank" color="#3c4043bd"> Carbon neutral since 2007</a></p>
+        <p> <a href="https://sustainability.google/commitments/#:~:text=Carbon%20Commitments,Google%20Supporting%20partners%20Enabling%20everyone"
+                target="_blank" color="#3c4043bd"> Carbon neutral since 2007</a></p>
     </div>
 
     <div class="right-footer" id="right-footer">
@@ -86,29 +88,24 @@
             <li>Terms</li>
             <li>Settings</li>
         </ul>
-    
+
     </div>
-    
-
-
 
 </footer>
 
 <script>
 
-document.addEventListener('DOMContentLoaded', () => {
-    const links = document.querySelectorAll('.celllink');
+    document.addEventListener('DOMContentLoaded', () => {
+        const links = document.querySelectorAll('.celllink');
 
-    links.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            links.forEach(link => link.classList.remove('active'));
-            e.target.classList.add('active');
+        links.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                links.forEach(link => link.classList.remove('active'));
+                e.target.classList.add('active');
+            });
         });
     });
-});
 
 </script>
-
-
 </html>

@@ -1,70 +1,55 @@
-
-
 body {
     font-size: 14px;
-    font-family: Roberto,arial,sans-serif;
+    font-family: Roberto, arial, sans-serif;
     color: #202124;
-    margin:0;
+    margin: 0;
     overflow-x: hidden;
-    
 }
+
 a:link,
-a:visited{
+a:visited {
     cursor: pointer;
     color: #3c4043bd;
     text-decoration: none;
 }
 
-
-a:hover{
+a:hover {
     text-decoration: underline;
 }
-a:active{
+
+a:active {
     cursor: pointer;
     color: #3c4043bd;
     text-decoration: none;
-   
 }
+
 header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
     margin-left: 15px;
-
-    
 }
-
-
 
 .celllink.active {
     color: rgb(0, 110, 255);
-    
     text-decoration: underline;
 }
 
-
-
-
- ul{
+ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     padding-left: 0px;
     margin-top: 1px;
     align-items: center;
-    
-
-    
 }
-
 
 li {
     padding-left: 15px;
     justify-content: center;
     align-items: center;
 }
-
 
 .nav-right li#app img {
     width: 1.35rem;
@@ -78,11 +63,11 @@ li {
     padding-bottom: 2px;
 }
 
-.cellnav-right li#cellapp img{
+.cellnav-right li#cellapp img {
     width: 1rem;
 }
 
-.cellnav-right li#cellimg img{
+.cellnav-right li#cellimg img {
     width: 3rem;
 }
 
@@ -98,20 +83,17 @@ li {
     padding-top: 3px;
 }
 
-body div{
+body div {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .logo {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 3rem;
-    
-    
-
 }
 
 .logo img {
@@ -130,15 +112,14 @@ body div{
     width: auto;
     max-width: 584px;
     padding: 5px 8px 0 14px;
-    
 }
 
 .search:hover {
-    box-shadow: -1px 3px 15px -9px rgba(92,92,92,0.5);
+    box-shadow: -1px 3px 15px -9px rgba(92, 92, 92, 0.5);
 }
 
 .scope {
-    order:-1;
+    order: -1;
     margin-right: 10px;
     opacity: 50%;
     width: 1.5rem;
@@ -151,7 +132,6 @@ textarea {
     outline: none;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .mic {
@@ -162,14 +142,14 @@ textarea {
 .cam {
     width: 1.5rem;
     margin-right: 1rem;
-
 }
+
 button {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    font-family: Roboto,arial,sans-serif;
+    font-family: Roboto, arial, sans-serif;
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
@@ -186,8 +166,6 @@ button:hover {
     box-shadow: 0px 0px 1px 0px #000000ad;
 }
 
-  
-  
 .buttons {
     display: flex;
     flex-direction: row;
@@ -197,16 +175,12 @@ button:hover {
     margin: 11px;
 }
 
-
-
 .bard {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20%;
-    
-    
 }
 
 .bard img {
@@ -214,76 +188,67 @@ button:hover {
     margin-right: 6px;
 }
 
-
-footer div{
+footer div {
     display: block;
     padding: 15px;
-   
 }
 
 footer {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
-    color:#3c4043bd;
-
-   
+    color: #3c4043bd;
 }
 
 
 .carbon {
-    display:flex;
+    display: flex;
     flex-direction: row;
     order: 0;
     justify-content: center;
-    color:#3c4043bd;
+    color: #3c4043bd;
     text-decoration: underline;
     padding-top: 5px;
-    
 }
 
-.carbon img  {
+.carbon img {
     width: 1rem;
     margin-right: 6px;
-    
 }
 
-.right-footer{
-    padding-right:50px;
+.right-footer {
+    padding-right: 50px;
 }
-
-
-
 
 /* phone */
 
-@media (max-width: 760px ){
+@media (max-width: 760px) {
     .nav-right {
         display: none;
     }
-    
+
     .nav-left {
         display: none;
     }
 
-    body{
+    body {
         width: fit-content;
         overflow-x: hidden;
     }
 
     header {
-        margin-left: 10px; 
+        margin-left: 10px;
         margin-right: 10px;
     }
-    
-    .logo img{
+
+    .logo img {
         width: 175px;
         display: flex;
         justify-content: center;
@@ -292,10 +257,8 @@ footer {
 
     .search {
         width: 400px;
-        margin-left:10px;
+        margin-left: 10px;
     }
-
-  
 
     .scope {
         width: 2rem;
@@ -306,13 +269,12 @@ footer {
     }
 
     .mic {
-        display:none;
+        display: none;
     }
 
     button {
-        display:none;
+        display: none;
     }
-
 
     .bard {
         margin-bottom: 75%;
@@ -322,22 +284,19 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
-        
-      }
+    }
+
     .carbon {
         display: none;
     }
 }
 
-@media (min-width: 760px ){
+@media (min-width: 760px) {
     .cellnav-right {
         display: none;
     }
-    
+
     .cellnav-left {
         display: none;
     }
-
-  
 }
